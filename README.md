@@ -1,4 +1,4 @@
-# 🛡️ Enterprise Web Security Scanner v8.0
+#  Enterprise Web Security Scanner v8.0
 
 **A powerful automated web vulnerability scanner for penetration testing and security assessments**
 
@@ -8,20 +8,20 @@
 
 ---
 
-## ⚠️ DISCLAIMER
+##  DISCLAIMER
 
 **USE WITH CAUTION - BETA SOFTWARE**
 
 This tool is currently in BETA and may contain bugs. Only use this scanner on:
-- ✅ Your own websites
-- ✅ Applications you have explicit permission to test
-- ✅ Authorized penetration testing engagements
+-  Your own websites
+-  Applications you have explicit permission to test
+-  Authorized penetration testing engagements
 
 **Unauthorized scanning of websites is ILLEGAL and UNETHICAL.**
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### Comprehensive Vulnerability Detection (11+ Types)
 
@@ -41,7 +41,7 @@ This tool is currently in BETA and may contain bugs. Only use this scanner on:
 
 ### Advanced Features
 
-#### 🔥 **Performance Optimizations (2.5x Faster)**
+####  **Performance Optimizations (2.5x Faster)**
 - **Request Queue Manager** - Priority-based, retry logic, 5-minute response cache
 - **Concurrent Requests** - 8 parallel requests (166% increase from v7.0)
 - **Smart URL Deduplication** - Avoids retesting similar patterns
@@ -49,20 +49,20 @@ This tool is currently in BETA and may contain bugs. Only use this scanner on:
 - **Enhanced Coverage** - 150 pages, depth 4 (100% more than v7.0)
 - **Response Caching** - Reduces redundant requests by ~40%
 
-#### 🎯 **Accuracy Improvements**
+####  **Accuracy Improvements**
 - **False Positive Filtering** - Baseline response comparison
 - **Evidence-Based Confidence Scoring** - Multi-stage verification
 - **Generic Error Page Detection** - Filters common false positives
 - **Response Hash & Length Analysis** - Detects meaningful changes
 - **Context-Aware Detection** - Understands execution context
 
-#### 🧠 **Smart Fuzzing Engine**
+####  **Smart Fuzzing Engine**
 - **Payload Mutation** - URL/hex/unicode/base64 encoding
 - **Case Variation Bypass** - Evades basic filters
 - **Null Byte Injection** - Tests boundary conditions
 - **Context-Aware Generation** - Adapts to application type
 
-#### 🕵️ **Anti-Detection System**
+####  **Anti-Detection System**
 - **Advanced User-Agent Rotation** - 9+ realistic browser profiles
 - **IP Header Rotation** - X-Forwarded-For, X-Real-IP, CF-Connecting-IP
 - **WAF Detection & Bypass** - Identifies and attempts to evade WAFs
@@ -70,7 +70,7 @@ This tool is currently in BETA and may contain bugs. Only use this scanner on:
 - **Adaptive Rate Limiting** - Adjusts speed based on server response
 - **Traffic Pattern Randomization** - Mimics natural browsing
 
-#### 📊 **Professional PDF Reports**
+####  **Professional PDF Reports**
 - **Clean, Static PDF Format** - No HTML, no action scripts
 - **Color-Coded Severity** - Visual severity indicators
 - **Detailed Findings** - URL, payload, evidence, confidence
@@ -80,7 +80,7 @@ This tool is currently in BETA and may contain bugs. Only use this scanner on:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - **Tampermonkey** or **Greasemonkey** browser extension
@@ -106,7 +106,7 @@ This tool is currently in BETA and may contain bugs. Only use this scanner on:
 
 ---
 
-## 🎮 Usage
+##  Usage
 
 ### Quick Start
 
@@ -120,7 +120,7 @@ This tool is currently in BETA and may contain bugs. Only use this scanner on:
    - Located in the bottom-right corner of the page
 
 3. **Start Scanning**
-   - Click **"▶️ Start Scan"** button
+   - Click **"Start Scan"** button
    - Scanner begins automated deep crawl and testing
 
 4. **Monitor Progress**
@@ -167,7 +167,7 @@ scanConfig: {
 
 ---
 
-## 📖 How It Works
+##  How It Works
 
 ### Phase 1: Deep Crawling
 - Discovers all links, forms, and resources
@@ -199,7 +199,7 @@ scanConfig: {
 
 ---
 
-## 🔍 Detection Methodologies
+##  Detection Methodologies
 
 ### SQL Injection
 1. **Error-Based** - Triggers database errors (60+ payloads)
@@ -284,11 +284,11 @@ Vulnerabilities by Type
 - **GM API** - Tampermonkey functions
 
 ### Browser Compatibility
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Edge 90+
-- ✅ Safari 14+
-- ✅ Opera 76+
+-  Chrome 90+
+-  Firefox 88+
+-  Edge 90+
+-  Safari 14+
+-  Opera 76+
 
 ---
 
@@ -317,14 +317,14 @@ scanDepth: 2                // Shallow crawl
 
 ---
 
-## 🐛 Known Issues & Limitations
+##  Known Issues & Limitations
 
 ### Current Limitations
-- ⚠️ **BETA Software** - May contain bugs, use with caution
-- ⚠️ **SPA Limitations** - Heavy JavaScript apps may be partially scanned
-- ⚠️ **CAPTCHA/Auth** - Cannot bypass authentication automatically
-- ⚠️ **Rate Limiting** - Some WAFs may still block requests
-- ⚠️ **TypeScript Errors** - Code has type annotation warnings (functional)
+-  **BETA Software** - May contain bugs, use with caution
+-  **SPA Limitations** - Heavy JavaScript apps may be partially scanned
+-  **CAPTCHA/Auth** - Cannot bypass authentication automatically
+-  **Rate Limiting** - Some WAFs may still block requests
+-  **TypeScript Errors** - Code has type annotation warnings (functional)
 
 ### Known Issues
 - Some false positives may still occur
@@ -334,16 +334,16 @@ scanDepth: 2                // Shallow crawl
 
 ---
 
-## 🔒 Security & Ethics
+##  Security & Ethics
 
 ### Responsible Use
 This tool is designed for **authorized security testing only**. You must:
 
-1. ✅ **Have explicit permission** from the website owner
-2. ✅ **Test only your own applications** or authorized targets
-3. ✅ **Follow responsible disclosure** for any findings
-4. ✅ **Comply with local laws** and regulations
-5. ❌ **Never use for malicious purposes**
+1.  **Have explicit permission** from the website owner
+2.  **Test only your own applications** or authorized targets
+3.  **Follow responsible disclosure** for any findings
+4.  **Comply with local laws** and regulations
+5.  **Never use for malicious purposes**
 
 ### Legal Notice
 Unauthorized computer access is illegal in most jurisdictions. The authors assume **NO LIABILITY** for misuse of this tool. By using this scanner, you agree to use it responsibly and legally.
@@ -353,15 +353,15 @@ Unauthorized computer access is illegal in most jurisdictions. The authors assum
 ## 📝 Changelog
 
 ### Version 8.0 (Current)
-- ✅ Improved XSS detection with context analysis
-- ✅ Enhanced XXE detection with 12+ payloads
-- ✅ Fixed SSRF detection (AWS/GCP metadata)
-- ✅ Improved Open Redirect detection
-- ✅ Enhanced LDAP, NoSQL, SSTI, CRLF detection
-- ✅ Added evidence-based confidence scoring
-- ✅ Professional PDF reports (no HTML/action scripts)
-- ✅ Better false positive filtering
-- ✅ Performance optimizations (2.5x faster)
+-  Improved XSS detection with context analysis
+-  Enhanced XXE detection with 12+ payloads
+-  Fixed SSRF detection (AWS/GCP metadata)
+-  Improved Open Redirect detection
+-  Enhanced LDAP, NoSQL, SSTI, CRLF detection
+-  Added evidence-based confidence scoring
+-  Professional PDF reports (no HTML/action scripts)
+-  Better false positive filtering
+-  Performance optimizations (2.5x faster)
 
 ### Version 7.0
 - Added 11 vulnerability types
@@ -371,7 +371,7 @@ Unauthorized computer access is illegal in most jurisdictions. The authors assum
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please:
 
@@ -383,13 +383,13 @@ Contributions are welcome! Please:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **RicheByte**
 - GitHub: [@RicheByte](https://github.com/RicheByte)
@@ -397,7 +397,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - jsPDF library for PDF generation
 - Tampermonkey community for UserScript support
@@ -406,15 +406,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
+##  Support
 
 For issues, questions, or suggestions:
-- 🐛 [Report a Bug](https://github.com/RicheByte/MonkeyScripts/issues)
-- 💡 [Request a Feature](https://github.com/RicheByte/MonkeyScripts/issues)
-- 📧 Contact via GitHub
+-  [Report a Bug](https://github.com/RicheByte/MonkeyScripts/issues)
+-  [Request a Feature](https://github.com/RicheByte/MonkeyScripts/issues)
+-  Contact via GitHub
 
 ---
 
 **Remember: With great power comes great responsibility. Use this tool ethically and legally.**
 
 ⭐ If you find this tool useful, please star the repository!
+

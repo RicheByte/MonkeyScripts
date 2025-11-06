@@ -6,6 +6,9 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Tampermonkey](https://img.shields.io/badge/Tampermonkey-compatible-orange.svg)](https://www.tampermonkey.net/)
 
+
+![Demo Photo](/image.png)
+
 ---
 
 ##  DISCLAIMER
@@ -418,4 +421,5 @@ For issues, questions, or suggestions:
 **Remember: With great power comes great responsibility. Use this tool ethically and legally.**
 
 ⭐ If you find this tool useful, please star the repository!
+
 
